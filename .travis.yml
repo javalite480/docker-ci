@@ -18,6 +18,6 @@ before_deploy:
   - docker login -u "$REGISTRY_USER" -p "$REGISTRY_PASS"
 deploy:
   provider: script
-  script: docker push myorg/myimage
+  script: docker push javalite480/docker-ci
   on:
     branch: master
