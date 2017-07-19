@@ -3,8 +3,8 @@ services:
   - docker
 env:
   global:
-    - REGISTRY_USER=myrobot
-    # REGISTRY_PASS=...
+    - REGISTRY_USER=javalite480
+    - REGISTRY_PASS=kabelolindiwe3
     - secret: "<something long>"
 
 script:
