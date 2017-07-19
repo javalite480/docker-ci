@@ -4,7 +4,7 @@ services:
 env:
   global:
     - REGISTRY_USER=javalite480
-    - REGISTRY_PASS=kabelolindiwe3
+    - REGISTRY_PASS=@prilF00l
     - secret: "<something long>"
 
 script:
