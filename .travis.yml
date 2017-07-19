@@ -8,8 +8,8 @@ env:
     - secret: "<something long>"
 
 script:
-  - docker build --tag myorg/myimage .
-  - docker run myorg/myimage
+  - docker build --tag javalite480/docker-ci .
+  - docker run javalite480/docker-ci
 
 after_script:
   - docker images
